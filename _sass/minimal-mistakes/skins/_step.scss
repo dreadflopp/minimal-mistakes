@@ -4,7 +4,7 @@
 
 /* Colors */
 $background-color: #373F49 !default;
-$text-color: #a6a6a6 !default;
+$text-color: #c0c0c0 !default;
 $primary-color: #069ec4 !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color: mix(#000, $background-color, 15%) !default;
@@ -27,10 +27,21 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
   background-color: $form-background-color;
 }
 
-$h-size-1: 2.5em;
+h1, h2, h3, h4 {
+  font-family: Montserrat,sans-serif;
+  margin: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.17em;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+$h-size-1: 2.1em;
 $h-size-2: 1.85em;
-$h-size-3: 1.5em;
-$h-size-4: 1.4em;
+$h-size-3: 1.4em;
+$h-size-4: 1.6em;
 
 h1 {
 	background: #262629;
@@ -47,7 +58,6 @@ h2 {
 	border-width: 0;
 	border-bottom-width: 2px;
 	border-color: #5D7480;
-	margin-bottom: 0.5em;
 	margin-top: 1.4em;
 }
 
@@ -59,6 +69,5 @@ h3 {
 h4 {
 	text-align: center;
 	margin: 0;
-  font-size: 1.6rem;
   border-bottom: 1px solid #9b6014;
 }
