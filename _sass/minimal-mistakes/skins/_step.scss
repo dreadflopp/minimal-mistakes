@@ -33,9 +33,8 @@ $h-size-3: 1.5em;
 $h-size-4: 1.4em;
 
 h1 {
-	background: #292B2C;
+	background: #262629;
 	text-transform: uppercase;
-	color: #6D95AB;
 	text-align:center;
 
 }
@@ -58,11 +57,8 @@ h3 {
 }
 
 h4 {
-	color: #ccc;
 	text-align: center;
-	border-style: solid;
-  	border-width: 0;
-	border-bottom-width: 3px;
-	border-color: rgb(200,100,20);
 	margin: 0;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #9b6014;
 }
